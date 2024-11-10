@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='trading_sdk',
+    name='ixlab-tradingSDK',  # Use hyphens for PyPI package names
     version='1.0.0',
     packages=find_packages(),
     install_requires=[
@@ -11,9 +11,13 @@ setup(
     ],
     url='https://github.com/iX-LAB-Official/trading_sdk',
     license='MIT',
-    author='Your Name',
-    author_email='your.email@example.com',
-    description='A Python SDK for interacting with the trading API',
+    author='iX LAB',
+    author_email='info@ixlab.ai',
+    description='A Python SDK for interacting with the iX LAB trading API',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'Operating System :: OS Independent',
+    ],
 )
